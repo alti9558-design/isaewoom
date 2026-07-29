@@ -78,7 +78,7 @@ button{font:inherit}
 .step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .step-card{position:relative;overflow:hidden;border-radius:28px;padding:30px}
 .step-card span{display:grid;place-items:center;width:48px;height:48px;border-radius:22px;background:var(--yellow);font-weight:950;margin-bottom:16px}
-.step-card:after{content:"";position:absolute;right:-45px;bottom:-45px;width:140px;height:140px;border-radius:22px;background:rgba(85,214,214,.12)}
+.step-card:after{display:none;content:none}
 .workbook-section{background:#FFFDF5}
 .compact{max-width:520px}
 .curriculum-section{background:#fff}
