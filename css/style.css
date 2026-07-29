@@ -52,12 +52,12 @@ button{font:inherit}
 .logo-stage{min-height:390px;border-radius:38px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;padding:48px}
 .logo-stage img{width:min(420px,100%);transform:none;border-radius:22px}
 .why{background:#fff}
-.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.feature-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
 .feature-card,.content-card,.image-card,.step-card,.benefit-card,.system-card,.flow-card,.faq-item{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-soft)}
 .feature-card{border-radius:26px;padding:26px;transition:.2s}
 .feature-card:hover,.program-card:hover,.benefit-card:hover,.system-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
 .feature-icon{width:56px;height:56px;border-radius:18px;background:#FFF5C5;display:grid;place-items:center;font-size:1.7rem;margin-bottom:16px}
-.feature-card:nth-child(2) .feature-icon{background:#FBE5F3}.feature-card:nth-child(3) .feature-icon{background:#E8F3FB}.feature-card:nth-child(4) .feature-icon{background:#EAF7EF}
+.feature-card:nth-child(2) .feature-icon{background:#FBE5F3}.feature-card:nth-child(3) .feature-icon{background:#E8F3FB}.feature-card:nth-child(4) .feature-icon{background:#EAF7EF}.feature-card:nth-child(5) .feature-icon{background:#FFF0D9}
 .feature-card h3,.benefit-card h3,.system-card h3,.flow-card h3,.program-card h3,.step-card h3{margin:0 0 8px;font-size:1.2rem;letter-spacing:-.025em}
 .feature-card p,.benefit-card p,.system-card p,.flow-card p,.program-card p,.step-card p{margin:0;color:var(--muted);font-size:.96rem}
 .apple-section{background:#F7FBFF}
